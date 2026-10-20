@@ -1,0 +1,266 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background: #f5f5f5;
+        font-family: sans-serif;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 700px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 30px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input,
+    select {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    input[type="file"] {
+        background: #fff;
+    }
+
+    .message {
+        padding: 12px;
+        margin-bottom: 20px;
+        background: #eee;
+        border-radius: 5px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 12px 25px;
+        background: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .button:hover {
+        background: #555;
+    }
+
+    .back {
+        display: inline-block;
+        margin-left: 10px;
+        color: #333;
+    }
+
+    .help {
+        margin-top: 5px;
+        color: #777;
+        font-size: 13px;
+    }
+
+
+
+/* =========================
+フォーム
+========================= */
+
+form {
+width: 90%;
+max-width: 640px;
+
+margin: 0 auto;
+
+
+}
+
+form dl {
+width: 100%;
+
+margin: 0 auto;
+
+
+}
+
+.form-item {
+display: flex;
+
+margin-bottom: 30px;
+
+
+}
+
+.form-item dt {
+flex-basis: 30%;
+}
+
+.form-item dd {
+flex-basis: 70%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+display: block;
+
+width: 100%;
+
+padding: 10px;
+
+border: 1px solid #ddd9ce;
+
+background: #fff;
+
+font-size: 16px;
+
+
+}
+
+textarea {
+min-height: 120px;
+}
+
+select {
+width: 30%;
+
+padding: 8px;
+
+border: 1px solid #ddd9ce;
+
+font-size: 18px;
+
+
+}
+
+.form-submit,
+.form-reset {
+text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+width: 200px;
+
+padding: 0.8em;
+
+border: none;
+border-radius: 2px;
+
+color: #fff;
+
+cursor: pointer;
+
+transition: 0.3s;
+
+
+}
+
+input[type="submit"] {
+background: #52644c;
+}
+
+input[type="reset"] {
+background: #9a4d4d;
+}
+
+input[type="submit"]:hover {
+background: #263a2a;
+}
+
+input[type="reset"]:hover {
+background: #6f3737;
+}
+
+
+/* =========================
+テーブル
+========================= */
+
+table {
+width: 100%;
+
+border: 1px solid #ddd9ce;
+border-collapse: collapse;
+
+background: #fff;
+
+
+}
+
+th,
+td {
+padding: 10px;
+
+border: 1px solid #ddd9ce;
+
+
+}
+
+th {
+width: 15%;
+
+color: #fff;
+background: #52644c;
+
+font-size: 14px;
+font-weight: normal;
+
+
+}
+
+td {
+padding: 10px 15px;
+}
+
+tr:nth-child(odd) {
+background: #f3f1eb;
+}
+
+
+h2 {
+
+
+    color: #014505;
+
+    font-family: "Handlee", cursive;
+
+
+    letter-spacing: 0.05em;
+
+    text-align: center;
+
+}
+
+.no-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 220px;
+    margin-bottom: 10px;
+    background: #f1f4f6;
+    color: #52616b;
+    border-radius: 8px;
+}
+

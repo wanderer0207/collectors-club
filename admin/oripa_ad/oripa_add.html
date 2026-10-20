@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>COLLECTOR'S CLUB_商品の追加</title>
+        <link href="../../css/admin.css" media="all" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    
+        
+        <main>
+    
+    <h2>商品の追加</h2>
+    	<!--multipart/form-data 画像ファイルを送信するため-->
+	<form method= "POST" action= "oripa_add_check.php" enctype= "multipart/form-data">
+
+		<dl>
+			<div class="form-item">
+				<dt>商品名</dt>
+				<dd>
+					<input type="text" name="name" required>
+				</dd>
+			</div>
+			
+			<div class="form-item">
+				<dt>商品説明</dt>
+				<dd>
+					<textarea name="description" rows="6" required></textarea>
+				</dd>
+			</div>
+
+			<div class="form-item">
+				<dt>価格</dt>
+				<dd>
+					<input type="number" name="price" required>
+				</dd>
+			</div>
+            
+            <div class="form-item">
+				<dt>在庫数</dt>
+				<dd>
+					<input type="number" name="stock" required>
+				</dd>
+			</div>
+            
+            <div class="form-item">
+				<dt>総在庫数</dt>
+				<dd>
+					<input type="number" name="max_stock" required>
+				</dd>
+			</div>
+            
+			<div class="form-item">
+				<dt>メイン画像</dt>
+				<dd>
+					<input type="file" name="image" accept="image/*" required>
+				</dd>
+			</div>			
+	
+		</dl>
+	
+		<div class= "form-submit">
+		<input type= "submit" value= "送信">
+		</div>
+        
+        <div class= "form-submit">
+		<input type= "button" onclick= "history.back()" value= "戻る">
+		</div>
+        
+	</form>
+
+</main>
+<footer>
+<p>Copyright 2026 COLLECTOR'S CLUB.</p>
+</footer>    
+    
+    
+    </body>
+    
+</html>
