@@ -11,7 +11,7 @@ POSTで送信されたときだけ、この処理を実行するということ*
 
     $conn = db_conn3();
 
-    $sql = "SELECT * FROM `users` WHERE email = :email";
+    $sql = "SELECT * FROM users WHERE email = :email";
 
     $stmt = $conn->prepare($sql);
 
