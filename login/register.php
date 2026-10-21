@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $conn = db_conn3();
     
     //id だけ取得↓↓
-    $sql = "SELECT id FROM `users` WHERE email = :email";
+    $sql = "SELECT id FROM users WHERE email = :email";
     $stmt = $conn -> prepare($sql);
     $stmt -> bindParam(":email", $email);
     $stmt->execute();
